@@ -1,0 +1,89 @@
+body{
+    /** Colors **/
+    --background-black: rgb(24, 24, 24);
+    --background-light-purple: rgb(216, 75, 174);
+    --background-purple: rgb(194, 30, 145);
+    --background-white: rgb(255, 255, 255);
+    --background-yellow: rgb(255, 254, 196);
+
+    --border-dark-purple: rgb(94, 6, 72);
+    --border-yellow: rgb(218, 205, 24);
+
+    --brand-purple: rgb(213, 179, 245);
+
+    --text-black: rgb(14, 14, 14);
+    --text-dark-gray: rgb(43, 43, 43);
+    --text-light-gray: rgb(235, 235, 235);
+    --text-white: rgb(255, 252, 247);
+
+    background-color: var(--brand-purple);
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    color: var(--text-black);
+    font-weight: 500;
+    margin: 0;
+}
+
+.contentRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.8rem;
+    border-bottom: 0.2rem solid var(--background-black);
+    font-weight: 600;
+    background-color: var(--background-white);
+    color: var(--text-dark-gray);
+    border-radius: 0.2rem;
+}
+
+.flow-down {
+    margin-top: 4rem;
+}
+
+.move-down {
+    margin-top: 2rem;
+}
+
+.action-button {
+    max-width: 20rem;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    background-color: var(--background-white);
+    padding: 0.9rem;
+    border-radius: 0.8rem;
+    font-weight: 600;
+    border: 0.2rem solid var(--border-dark-purple);
+    background-color: var(--background-purple);
+    color: var(--text-white);
+}
+
+.action-button:hover {
+    background-color: var(--background-light-purple);
+    color: var(--text-light-gray);
+}
+
+.info-box {
+    padding: min(2rem, 6vw);
+    background-color: var(--background-white);
+    border-bottom: 0.1rem solid var(--background-black);
+    line-height: 2rem;
+    max-width: 80rem;
+    border-radius: 0.2rem;
+}
+
+.footer {
+    margin-bottom: 1.2rem;
+    margin-left: 1.4rem;
+}
+
+.notation {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--text-dark-gray);
+}
